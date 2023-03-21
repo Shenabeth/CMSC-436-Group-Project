@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<body style= "line-height:1.5; font-family:'Trebuchet MS'; background-color:#85f8c1">
+
+<p style="text-align:center;"><img src="Icon.png" alt="Logo" style="width: 7%; height: 7%"></p>
+<h1 style="text-shadow: 0.03em 0.03em #2F4F4F"><strong><center>UniPlanner</center></strong></h1>
+
+
+
+<hr />
+
+
+<h3 style="text-shadow: 0.04em 0.04em #2F4F4F"><strong><center>EXTERNAL LINKS</center></strong></h3>
+<p><strong>External link to .apk:  &nbsp;</strong>text</p>
+<p><strong>External link to source zip:  &nbsp;</strong>text</p>
+
+
+<hr />
+
+
+<h3 style="text-shadow: 0.04em 0.04em #2F4F4F"><strong><center>DESCRIPTION</center></strong></h3>
+<p><center>UniPlanner is an application that makes planning the future easier for students. Students are usually put under a lot of pressure, requiring them to plan their entire lives in a few years before rushing into the workforce. So, this useful application will help them sort out their long term academic goals. Users will be able to add, edit, and delete their goals as they please. Lists of classes, grades, and credits can also be added to the groups of previous, current, and future semesters to make it easier to track one's entire academic career. All of this data will be displayed in an organized interface for ease of readability.</center></p>
+<p>&nbsp;</p>
+
+<p>add 2 screenshots here</p>
+
+
+<hr />
+
+
+<h3 style="text-shadow: 0.04em 0.04em #2F4F4F"><strong><center>YOUTUBE</center></strong></h3>
+<p><strong>External link to YouTube video:  &nbsp;</strong>text</p>
+
+
+<hr />
+
+
+<h3 style="text-shadow: 0.04em 0.04em #2F4F4F"><strong><center>EXTERNAL LIBRARIES &amp; CODE</center></strong></h3>
+
+<p>android.content.Intent</p>
+<p>android.os.Bundle</p>
+<p>android.view.Menu</p>
+<p>android.view.MenuItem</p>
+<p>android.widget.Toast</p>
+<p>androidx.appcompat.app.AppCompatActivity</p>
+<p>androidx.navigation.findNavController</p>
+<p>androidx.navigation.ui.AppBarConfiguration</p>
+<p>androidx.navigation.ui.setupActionBarWithNavController</p>
+<p>androidx.navigation.ui.setupWithNavController</p>
+<p>com.amazonaws.auth.CognitoCachingCredentialsProvider</p>
+<p>com.amazonaws.mobileconnectors.lambdainvoker</p>
+<p>com.amazonaws.regions.Regions</p>
+<p>com.google.android.material.bottomnavigation.BottomNavigationView</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+    "Username": "solarhue",
+    "Past":{
+        "Fall 2020": {
+            "CMSC436":{
+                "Credits": 3,
+                "Location": "ESJ"
+            },
+            "CMSC420":{
+                "Credits": 3,
+                "Location": "ESJ"
+            }
+        }
+    },
+
+    "Present":{
+        "Fall 2020": {
+            "CMSC436":{
+                "Credits": 3,
+                "Location": "ESJ"
+            },
+            "CMSC420":{
+                "Credits": 3,
+                "Location": "ESJ"
+            }
+        }
+    },
+    "Future":{
+        "Fall 2020": {
+            "CMSC436":{
+                "Credits": 3,
+                "Location": "ESJ"
+            },
+            "CMSC420":{
+                "Credits": 3,
+                "Location": "ESJ"
+            }
+        }
+
+
+    }
+}

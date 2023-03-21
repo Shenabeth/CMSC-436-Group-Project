@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/locationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="124dp"
+        android:text="Location: "
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/classNameView"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:textSize="22dp"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/classNameLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+        android:id="@+id/creditsView"
+        android:layout_width="65dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/locationView"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/classNameView"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <EditText
+        android:id="@+id/locationView"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="112dp"
+        android:hint="Location"
+        android:textSize="22dp"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        app:layout_constraintStart_toEndOf="@+id/locationLabel" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="292dp"
+        android:text="Submit Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/classNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Class Name: "
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/creditsLabel"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="60dp"
+        android:text="Credits: "
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/locationLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classNameLabel"
+        app:layout_constraintVertical_bias="0.187" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
